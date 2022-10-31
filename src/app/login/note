@@ -1,0 +1,16 @@
+Data Binding - sharing data inside a component
+
+1) one way Binding
+
+html -> ts or ts->html
+
+ts :-component
+html:-view
+
+1.1 component to view(ts -> html)
+    a)string Binding -{(expression)}
+    b)propety Binding - [attribute name]="property"
+
+1.2 view to component (html -> ts)
+    a)Event Binding -(event name)="function Name()"
+    b)Event Binding using $(event) - (event name)="function name($event)"
